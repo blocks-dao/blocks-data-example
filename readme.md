@@ -18,7 +18,7 @@ BLOCKS is an ERC777 token which is compatible with ERC20. One unique feature of 
 
 ## Usage
 
-The following example will shows how to insert data into a BLOCKS transaction, also fetching then parsing the data from the blockchain.
+The following example shows how to insert data into a BLOCKS transaction, also fetching then parsing the data from the blockchain.
 
 ### Import Essential Libraries
 
