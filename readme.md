@@ -2,11 +2,11 @@
 
 BLOCKS is an ERC777 token which is compatible with ERC20. One unique feature of BLOCKS is the ability to insert data into a transaction using the "send" function.
 
-# Use Cases for BLOCKS For Data Transactions
+# Use Cases for BLOCKS Data Transactions
 
 - Inserting hashes for data integrity management
 - Sending human-readable messages
-- Storing Immutable NFT metadata
+- Storing immutable NFT metadata
 
 ## BLOCKS Contract Address
 
@@ -18,16 +18,16 @@ BLOCKS is an ERC777 token which is compatible with ERC20. One unique feature of 
 
 ## Usage
 
-You can connect to the BLOCKS contract using [web3.js](https://www.npmjs.com/package/web3). The following exampled will show you how to insert data into a transaction, and also fetch then parse the data from the blockchain.
+The following example will shows how to insert data into a BLOCKS transaction, also fetching then parsing the data from the blockchain.
 
 ### Import Essential Libraries
 
 Common libraries used for working with Ethereum Smart Contracts.
 
-[ethers.js](https://www.npmjs.com/package/ethers)
-[web3 Utils](https://www.npmjs.com/package/web3-utils)
-[web3.js](https://www.npmjs.com/package/web3)
-[bignumber.js](https://www.npmjs.com/package/bignumber.js)
+- [ethers.js](https://www.npmjs.com/package/ethers)
+- [web3 Utils](https://www.npmjs.com/package/web3-utils)
+- [web3.js](https://www.npmjs.com/package/web3)
+- [bignumber.js](https://www.npmjs.com/package/bignumber.js)
 
 
 
@@ -50,11 +50,11 @@ const blocksDataTransaction = () => {
       let data = "Hello, this message is going on-chain!";
       let dataConverted = web3utils.toHex(data);
 
-      //You can send an amount of BLOCKS tokens with the transaction. BigNumber helps JavaScript deal with large numbers involving BLOCKS 18 decimals. In this case we are sending 2 BLOCKS.
+      //You can send any amount of BLOCKS tokens with the transaction. BigNumber helps JavaScript deal with large numbers involving BLOCKS' 18 decimals. In this case we are sending 2 BLOCKS.
       let amount = new BigNumber(2000000000000000000);
 
       //Now you can call the "send" function by entering a receiving address, amount and the converted data.
-      let receivingAddress = "0xA3Ccd256639c67639f39e69FDDd46Ac4230CD886"
+      let receivingAddress = "0xf0e3ea754D038b979CD0124e2f1A4Bf44f32746a"
       contractSigner.send(receivingAddress, amount.toFixed(), dataConverted).then((tx: any)=>{
         if(tx){
           //View the transaction response and get the transaction hash
