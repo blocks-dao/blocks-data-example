@@ -1,4 +1,4 @@
-# BLOCKS For Data Transactions
+# BLOCKS Data Transactions
 
 BLOCKS is an ERC777 token which is compatible with ERC20. One unique feature of BLOCKS is the ability to insert data into a transaction using the "send" function.
 
@@ -10,7 +10,7 @@ BLOCKS is an ERC777 token which is compatible with ERC20. One unique feature of 
 
 ## BLOCKS Contract Address
 
-[0x8a6D4C8735371EBAF8874fBd518b56Edd66024eB](https://ropsten.etherscan.io/token/0x8a6D4C8735371EBAF8874fBd518b56Edd66024eB)
+[0x8a6D4C8735371EBAF8874fBd518b56Edd66024eB](https://etherscan.io/token/0x8a6d4c8735371ebaf8874fbd518b56edd66024eb#readContract)
 
 ## BLOCKS ABI
 
