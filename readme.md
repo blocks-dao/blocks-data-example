@@ -10,7 +10,16 @@ BLOCKS is an ERC777 token which is compatible with ERC20. One unique feature of 
 
 ## BLOCKS Contract Address
 
-[0x8a6D4C8735371EBAF8874fBd518b56Edd66024eB](https://etherscan.io/token/0x8a6d4c8735371ebaf8874fbd518b56edd66024eb#readContract)
+Ethereum Mainnet (BLOCKS)
+[0x8a6D4C8735371EBAF8874fBd518b56Edd66024eB](https://ropsten.etherscan.io/token/0x8a6D4C8735371EBAF8874fBd518b56Edd66024eB)
+
+Polygon / Matic BLOCKS Data (MBD)
+[0x8a6D4C8735371EBAF8874fBd518b56Edd66024eB](https://polygonscan.com/token/0x8a6D4C8735371EBAF8874fBd518b56Edd66024eB)
+
+xDai BLOCKS Data (XBD)
+[0x4D6395328104c29b9a5a546ECbbCe2fc75D9b519](https://blockscout.com/xdai/mainnet/address/0x4D6395328104c29b9a5a546ECbbCe2fc75D9b519/contracts)
+
+XBD and MBD are only available to business partners of BLOCKS DAO. DAO partners can buy BLOCKS on SushiSwap or Uniswap then deliver BLOCKS to the DAO in exchange for XBD or MBD tokens. These sidechain tokens allow for faster, cheaper transactions and provide more cost effective utility for data transactions.
 
 ## BLOCKS ABI
 
