@@ -7,6 +7,7 @@ BLOCKS is an ERC777 token which is compatible with ERC20. One unique feature of 
 - Inserting hashes for data integrity management
 - Sending human-readable messages
 - Storing immutable NFT metadata
+- Simplified crypto ecommerce implementations
 
 ## BLOCKS Contract Address
 
